@@ -5,23 +5,40 @@
 @tailwind utilities;
 
 .color-gradient {
-	background-image: linear-gradient(
-	  125deg,
-	  hsl(190deg 86% 61%) 0%,
-	  hsl(192deg 100% 49%) 6%,
-	  hsl(195deg 100% 50%) 15%,
-	  hsl(197deg 100% 50%) 24%,
-	  hsl(201deg 100% 50%) 36%,
-	  hsl(204deg 100% 50%) 48%,
-	  hsl(209deg 100% 50%) 61%,
-	  hsl(214deg 100% 50%) 75%,
-	  hsl(250deg 100% 65%) 88%,
-	  hsl(278deg 100% 50%) 100%
-	);
+  background-image: linear-gradient(
+    135deg,
+    hsl(190deg 86% 61%) 0%,
+    hsl(194deg 100% 50%) 25%,
+    hsl(199deg 100% 50%) 37%,
+    hsl(206deg 100% 50%) 48%,
+    hsl(221deg 100% 57%) 63%,
+    hsl(278deg 100% 50%) 100%
+  );
+  background-attachment: fixed;
 }
 
-.header-hello { font-family: 'Fira Code', monospace; }
+
+@media (prefers-color-scheme: dark) {
+  .color-gradient {
+    background-image: linear-gradient(
+      135deg,
+      hsl(229deg 75% 12%) 0%,
+      hsl(233deg 67% 16%) 29%,
+      hsl(241deg 57% 21%) 43%,
+      hsl(250deg 61% 24%) 57%,
+      hsl(259deg 65% 26%) 71%,
+      hsl(267deg 72% 28%) 100%
+    );
+	background-attachment: fixed;
+  }
+}
+
+.header-hello {
+  font-family: "Fira Code", monospace;
+}
 
 @supports (font-variation-settings: normal) {
-  .header-hello { font-family: 'Fira Code VF', monospace; }
+  .header-hello {
+    font-family: "Fira Code VF", monospace;
+  }
 }
