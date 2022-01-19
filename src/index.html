@@ -4,8 +4,12 @@ title: Home
 ---
 
 <div class="md:flex md:items-center md:justify-center mt-12 md:mb-12">
-  <figure class="bg-slate-100 md:max-w-md md:rounded-2xl p-8 dark:bg-slate-800 dark:bg-opacity-80 shadow-2xl">
-    <img class="w-24 h-24 rounded-full mx-auto" src="{{ 'me@jonathanpoh.com' | gravatarUrl: 256 }}" width="256" height="256" />
+  <figure class=" md:max-w-md md:rounded-2xl p-8 bg-slate-100 bg-opacity-50 backdrop-blur-lg shadow-2xl dark:bg-slate-800">
+    <img
+        class="w-24 h-24 rounded-full mx-auto"
+        src="{{ 'me@jonathanpoh.com' | gravatarUrl: 64 }}"
+        srcset="{{ 'me@jonathanpoh.com' | gravatarUrl: 256 }} 2x"
+    />
     <h1 class="text-4xl text-center font-bold text-indigo-500 dark:text-indigo-400 mt-4">Jonathan Poh</h1>
     <div class="pt-6 text-center space-y-4">
       <blockquote>
