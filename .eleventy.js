@@ -4,6 +4,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.setUseGitIgnore(false);
   eleventyConfig.addWatchTarget('./src/css/tailwind.css');
   eleventyConfig.addPassthroughCopy('./src/img');
+  eleventyConfig.addPassthroughCopy('./src/js');
   eleventyConfig.addPlugin(gravatarPlugin);
   eleventyConfig.addShortcode("currentYear", function() { currentYear = new Date().getFullYear(); return currentYear;})
   return {
