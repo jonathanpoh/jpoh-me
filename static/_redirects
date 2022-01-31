@@ -4,3 +4,4 @@ http://www.jpoh.me/* https://www.jonathanpoh.me/:splat 301!
 https://www.jpoh.me/* https://www.jonathanpoh.me/:splat 301!
 /blog/* https://www.jonathanpoh.com/blog/:splat 301!
 /blog/* https://www.jonathanpoh.com/blog/:splat 301!
+/about / 301!
