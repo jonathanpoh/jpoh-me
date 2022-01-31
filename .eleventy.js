@@ -11,6 +11,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy('./src/favicon.ico');
   eleventyConfig.addPassthroughCopy('./src/*.png');
   eleventyConfig.addPassthroughCopy('./src/*.svg');
+  eleventyConfig.addPassthroughCopy({ static: "/" });
   eleventyConfig.addPlugin(gravatarPlugin);
   eleventyConfig.addShortcode("currentYear", function() { currentYear = new Date().getFullYear(); return currentYear;})
   return {
