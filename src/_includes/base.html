@@ -14,7 +14,7 @@
   <meta name="msapplication-TileColor" content="#2b5797">
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="/css/styles.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css">
+  <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.min.css">
 </head>
 
 <body class="color-gradient h-screen flex flex-col">
@@ -29,9 +29,9 @@
   <footer>
     <div class="w-full px-4 py-2 text-slate-300 dark:text-slate-400 text-xs bg-slate-100 bg-opacity-10 backdrop-blur-lg dark:bg-slate-800 dark:bg-opacity-50 dark:backdrop-blur-lg">&copy; Copyright {% currentYear %} Jonathan Poh</div>
   </footer>
-  <script src="https://kit.fontawesome.com/b959f4d9ab.js" crossorigin="anonymous"></script>
-  <script src="/js/email.js" type="text/javascript"></script>
-  <script defer data-domain="jonathanpoh.me" src="https://plausible.io/js/plausible.js"></script>
+  <script async src="https://kit.fontawesome.com/b959f4d9ab.js" crossorigin="anonymous"></script>
+  <script defer src="/js/email.js" type="text/javascript"></script>
+  <script defer src="https://plausible.io/js/plausible.js" data-domain="jonathanpoh.me"></script>
 </body>
 
 </html>
