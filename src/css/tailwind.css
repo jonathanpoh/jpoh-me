@@ -39,6 +39,6 @@
 
 @supports (font-variation-settings: normal) {
   .header-hello {
-    font-family: "Fira Code", monospace;
+    font-family: "Fira Code VF", monospace;
   }
 }
