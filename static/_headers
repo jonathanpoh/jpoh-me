@@ -1,7 +1,7 @@
 /*
 X-Frame-Options: DENY
 X-XSS-Protection: 1; mode=block
-Content-Security-Policy: default-src 'none'; script-src 'unsafe-inline' https: 'self' 'strict-dynamic' 'sha256-xmIONuJEDQAGzU0lh0GniQB742ROkczaDqKbCk6MbEw=' 'sha256-AAiI8xSbAnkE3FGUlYwplQRryPpTJP1mZAQlCqUzwzQ=' 'sha256-H6FVWM+mvBsEH4TUZ6IUb8+yMT47FMNsOt5Mgd5HAu4='; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' https://www.gravatar.com https://*.fontawesome.com; font-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; object-src 'none'
+Content-Security-Policy: default-src 'none'; script-src 'unsafe-inline' https: 'self' 'strict-dynamic' 'sha256-xmIONuJEDQAGzU0lh0GniQB742ROkczaDqKbCk6MbEw=' 'sha256-AAiI8xSbAnkE3FGUlYwplQRryPpTJP1mZAQlCqUzwzQ=' 'sha256-H6FVWM+mvBsEH4TUZ6IUb8+yMT47FMNsOt5Mgd5HAu4='; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' https://www.gravatar.com https://kit.fontawesome.com; font-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; object-src 'none'; connect-src https://*.fontawesome.com https://plausible.io; manifest-src 'self'
 X-Content-Type-Options: nosniff
 Referrer-Policy: strict-origin-when-cross-origin
 Permissions-Policy: geolocation=(), camera=()
