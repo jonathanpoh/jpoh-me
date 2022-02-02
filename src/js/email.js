@@ -1,15 +1,13 @@
 (() => {
-  document.addEventListener("DOMContentLoaded", function (e) {
-    let emailButtons = document.getElementsByClassName("show-email");
-    for (let i = 0; i < emailButtons.length; i++) {
-      emailButtons[i].addEventListener("click", showEmail);
-    }
+  let emailButtons = document.getElementsByClassName("show-email");
+  for (let i = 0; i < emailButtons.length; i++) {
+    emailButtons[i].addEventListener("click", showEmail);
+  }
 
-    let copyButtons = document.getElementsByClassName("copy-to-clipboard");
-    for (let i = 0; i < copyButtons.length; i++) {
-      copyButtons[i].addEventListener("click", copyToClipboard);
-    }
-  });
+  let copyButtons = document.getElementsByClassName("copy-to-clipboard");
+  for (let i = 0; i < copyButtons.length; i++) {
+    copyButtons[i].addEventListener("click", copyToClipboard);
+  }
 
   function showEmail(e) {
     let target = e.target;
