@@ -1,7 +1,7 @@
 /*
 X-Frame-Options: DENY
 X-XSS-Protection: 1; mode=block
-Content-Security-Policy: default-src https:; script-src 'unsafe-inline' https: 'strict-dynamic' https://*.fontawesome.com https://plausible.io; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' https://www.gravatar.com https://*.fontawesome.com; font-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; object-src 'none'
+Content-Security-Policy: default-src https:; script-src 'unsafe-inline' https: 'self' 'strict-dynamic' https://*.fontawesome.com https://plausible.io; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' https://www.gravatar.com https://*.fontawesome.com; font-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; object-src 'none'
 X-Content-Type-Options: nosniff
 Referrer-Policy: strict-origin-when-cross-origin
 Permissions-Policy: geolocation=(), camera=()
