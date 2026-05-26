@@ -1,7 +1,7 @@
 /*
 X-Frame-Options: DENY
 X-XSS-Protection: 1; mode=block
-Content-Security-Policy: default-src 'none'; script-src 'unsafe-inline' https: 'strict-dynamic' 'sha256-UbisiedpsWHppXd1/DNvTAHnc8OvMcFSHZ4QYH4sG70=' 'sha256-AAiI8xSbAnkE3FGUlYwplQRryPpTJP1mZAQlCqUzwzQ=' 'sha256-7o/4i7DTTbszxoZZ8S25CzOXxuS9SqlvHFfaW17cuPQ=' 'sha256-vRqPcOBVl3F/yYJapxmVySKCWzOrxXf0ed+3BkLbAOY=' 'sha256-fwHCDgeeqVnXX95c/yBgqYSum71R+ysZklkPBg9eoAQ='; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' https://www.gravatar.com; font-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; object-src 'none'; connect-src https://www.jonathanpoh.me https://plausible.io; manifest-src https://www.jonathanpoh.me; base-uri 'none'
+Content-Security-Policy: default-src 'none'; script-src 'unsafe-inline' https: 'strict-dynamic' 'sha256-UbisiedpsWHppXd1/DNvTAHnc8OvMcFSHZ4QYH4sG70=' 'sha256-AAiI8xSbAnkE3FGUlYwplQRryPpTJP1mZAQlCqUzwzQ=' 'sha256-sC4e1wGB6QF5FNSrkpXFAdvBfXS5yntW7zQtV9DfFw0=' 'sha256-vRqPcOBVl3F/yYJapxmVySKCWzOrxXf0ed+3BkLbAOY=' 'sha256-fwHCDgeeqVnXX95c/yBgqYSum71R+ysZklkPBg9eoAQ='; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' https://www.gravatar.com; font-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; object-src 'none'; connect-src https://www.jonathanpoh.me https://plausible.io; manifest-src https://www.jonathanpoh.me; base-uri 'none'
 X-Content-Type-Options: nosniff
 Referrer-Policy: strict-origin-when-cross-origin
 Permissions-Policy: geolocation=(), camera=()
